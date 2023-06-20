@@ -331,7 +331,6 @@ iframe{
 #map{
 	width:30%;
 	height:400px;
-	scrolling:no;
-	marginheight:0;
-	marginwidth:0;
+	margin-height:0;
+	margin-width:0;
 }
