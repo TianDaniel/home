@@ -327,3 +327,11 @@ iframe{
 	margin-left: 200px;
 	padding:10px
 }
+
+#map{
+	width:30%;
+	height:400px;
+	scrolling:no;
+	marginheight:0;
+	marginwidth:0;
+}
