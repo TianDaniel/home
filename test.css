@@ -1,0 +1,318 @@
+h1 {
+	color:rgb(255, 255, 255);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	font-size: 50px;
+}
+/* Blur effect*/
+.blur {
+	width:fit-content;
+	height: fit-content;
+	background:rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(100);
+	color:white;
+	font-size: 5vh;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.5);
+	padding-left:2vh;
+	padding-right:2vh;
+
+}
+
+/* Boxes around player names*/
+
+#box{
+	width:fit-content;
+	height: fit-content;
+	background-color:white;
+	color:rgb(0, 0, 0);
+	padding:4px;
+	font-size:2vh
+}
+
+#box-y{
+	width:fit-content;
+	height: fit-content;
+	background-color:rgb(255, 251, 0);
+	color:rgb(0, 0, 0);
+	padding:4px;
+	font-size:2vh
+}
+
+#box-c{
+	width:fit-content;
+	height: fit-content;
+	background-color:rgb(0, 0, 0, 0.4);
+	color:rgb(0, 0, 0);
+	padding:4px;
+	font-size:30px;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+.wrapper{
+	margin: 2vh auto;
+	width: 65%;
+	background:rgba(61, 56, 56, 0.199);
+	backdrop-filter: blur(100);
+	color:white;
+
+}
+
+.text-box{
+	color: #fff;
+	background-color: rgba(21, 33, 85, 0.7);
+	padding-bottom: 15vh;
+	
+	backdrop-filter: blur(100);
+
+}
+
+
+
+.text-box h2 {
+	padding-top:2vh;
+	font-size:5vh;
+}
+.text-box p {
+	font-size: 2.5vh;
+}
+
+img {
+	float: left;
+	width:40vh;
+	border: 3px solid #FFF;
+	margin: 5vh;
+}
+
+/* background image*/
+
+.container{
+	background-image: url(images/stadium-interior.jpeg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+*{
+	margin:0;
+	padding:0;
+
+}
+
+body
+{
+	background-color: #182b13;}
+
+.section {
+	background-color: rgb(4, 4, 39);
+	justify-content: space-between;
+	display: flex;
+	padding: 40px;
+	width: 60%;
+	margin: 10rem auto 0 auto;
+}
+
+.section h1{
+	margin: 0;
+	color:rgba(240, 255, 255, 0.616);
+}
+
+.section p{
+	color:azure;
+}
+.section img{
+	height:250px;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+}
+
+.section img{
+	height: 250px;
+}
+/* centering text and images*/
+#center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+center img{
+	height:250px;
+	border-bottom: solid;
+	border-left: solid;
+	border-right: solid;
+	border-top: solid;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+
+}
+/* Navagation bar at top*/
+
+  nav {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a {
+    border: 5px solid rgb(37, 47, 62);
+    display: inline-block;
+    padding: 5px;
+    background-color: #0e064d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+
+nav ul li a:hover {
+    background-color: #2611ca;
+}
+
+/*centering images*/
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+
+
+#players{
+	border-style: solid;
+	border-color: azure;
+	max-height: 10vh;
+	max-width: 10vh;
+}
+/* text box,images,iframe in stadium*/
+iframe{
+	float:right;
+	margin-right:100px;
+	border:5px;
+
+}
+
+.stadium-box{
+	background-color:#9392a0;
+	color: #FFF;
+	border-style: solid;
+	float:left;
+	margin-left:20px;
+	width:100vh;
+	padding:2vh;
+}
+
+.stadium-photo{
+	float:left;	
+}
+
+/* styling of spreadsheet of trophies*/
+.trophies {
+	float:left;
+	border-collapse: collapse;
+	width: 50%;
+	margin-top:10px;
+	margin-left:20px;
+	
+  }
+  
+  .trophies th, .trophies td {
+	border: 2px solid rgb(139, 120, 120);
+	padding: 2px;
+	text-align: center;
+	background-color:rgb(162, 192, 255);
+  }
+  
+  .trophies th {
+	background-color: #fffc42;
+  }
+  
+  .trophies tr:nth-child(even) {
+	background-color: #f9f9f9;
+  }
+
+  .trophies tr:nth-child(odd) {
+	background-color: #f9f9f9;
+  }
+
+
+  
+  .trophies tr:hover {
+	background-color: #e6e6e6;
+  }
+  
+  .trophies th:first-child, .trophies td:first-child {
+	font-weight: bold;
+  }
+/* box and text in trophy webpage*/
+.desc-trophies{
+	width:500px;
+	height:200px;
+	float:right;
+	border-style: groove;
+	border-color: navy;
+	border-width: 4px;
+	margin-right: 15px;
+	color:rgb(0, 0, 0);
+	background-color:rgb(162, 192, 255);
+	text-align: center;
+}
+
+ .desc-trophies p{
+	font-size: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }
+ .desc-trophies h2{
+	padding-top: 5px;
+	font-style:bold;
+	font-size:32px;
+ }
+
+#kits{
+	width:100px;
+	border-width: 5px;
+	border-color: rgb(17, 20, 58);
+	margin:5px;
+	
+}
+
+#fa-cup{
+	width:320px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 80px;
+}

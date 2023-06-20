@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title> Tottenham Hotspur</title>
+		<link rel = "stylesheet" href = "test.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>
+				Tottenham Hotspur FC
+			</h1>
+			<nav>
+				<ul>
+				  <li><a href="players.html">Players</a></li>
+				  <li><a href="trophies.html">Trophies</a></li>
+				  <li><a href="stadium.html">Stadium</a></li>
+				  <li><a href="homepage.html">Home</a></li>
+				  <li><a href ="tactics.html">Tactics</a></li>
+				</ul>
+			</nav>
+		</div>
+	<body>
+<html>
