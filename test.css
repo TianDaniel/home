@@ -335,16 +335,8 @@ iframe{
 	height:400px;
 }
 
-#iframe-tactics{
-	margin-top:40px;
-	margin-left:30px;
-	height:300px;
-	width:400px
-}
-
-#p-tactics{
-	color: rgb(0, 0, 0);
-	padding-top: 25px;
-	background-color: rgb(255, 255, 255,0.7);
-	padding-bottom: 100px;
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
